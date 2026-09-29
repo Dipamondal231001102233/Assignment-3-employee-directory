@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  color: #111827;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+header {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  margin: 8px 0 0;
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 25px auto;
+}
+
+/* Employee Count */
+
+.count {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.count h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Employee Form */
+
+.employee-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.employee-form h2 {
+  margin-top: 0;
+  color: #111827;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.employee-form input,
+.employee-form select,
+.employee-form textarea,
+.filters input,
+.filters select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #111827;
+  background: white;
+}
+
+.employee-form input::placeholder,
+.filters input::placeholder {
+  color: #555;
+}
+
+.employee-form textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.employee-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.employee-form button:hover {
+  background: #1d4ed8;
+}
+
+/* Search and Filter */
+
+.filters {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+}
+
+.filters input,
+.filters select {
+  color: #111827;
+}
+
+/* Employee List */
+
+.employee-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.employee-list h2 {
+  color: #111827;
+  font-size: 24px;
+}
+
+/* Employee Card */
+
+.employee-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.employee-card h3 {
+  margin-top: 0;
+  color: #111827;
+  font-size: 22px;
+}
+
+.employee-card p {
+  margin: 8px 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.employee-card strong {
+  color: #111827;
+}
+
+.employee-card button {
+  padding: 9px 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background: #2563eb;
+  font-weight: bold;
+}
+
+.employee-card button:last-child {
+  background: #dc2626;
+}
+
+.employee-card button:hover {
+  opacity: 0.85;
+}
